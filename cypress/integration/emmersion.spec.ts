@@ -15,7 +15,7 @@ describe("Emmersion End to End Tests", () => {
         navigationBar = new NavigationBar();
     })
 
-    it('not using page object: should create admin and see it in the admin list', () => {
+    it.skip('not using page object: should create admin and see it in the admin list', () => {
         const username = 'local-holonet';
         const password = 'Testing1!'
         let accountName = 'Local TN + WC-account';
