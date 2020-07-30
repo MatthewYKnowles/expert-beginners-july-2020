@@ -1,0 +1,26 @@
+{
+  "name": "cypress-typescript-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:record": "cypress run --record --key 5d1de44e-38f9-43f6-a222-c80784211895"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewYKnowles/cypress-typescript-seed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewYKnowles/cypress-typescript-seed/issues"
+  },
+  "homepage": "https://github.com/MatthewYKnowles/cypress-typescript-seed#readme",
+  "dependencies": {
+    "cypress": "^4.11.0",
+    "typescript": "^3.9.7"
+  }
+}
