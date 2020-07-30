@@ -11,7 +11,8 @@ describe("", () => {
         let holonetDashboardPage: HolonetDashboardPage = loginPage.loginToHolonet(username, password);
         cy.get('#showCreateModal').click();
         cy.viewport(1920, 1080);
-        cy.get('#accountName').type(`test${randomNumber}`)
-        cy.get('#membershipLevelId').select('Standard')
+        cy.get('#accountName').type(`test${randomNumber}`);
+        cy.get('#membershipLevelId').select('Standard');
+        cy.get('.email-domain-restriction > label').click();
     });
 })
